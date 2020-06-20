@@ -18,15 +18,17 @@ Usage
 Open the browser console and start using it!
 
 ## Easy object picking
-App.lookup('service:some-service')
-App.service('some-service')
-App.controller('some.route')
-App.route('some.route')
+- App.lookup('service:some-service')
+- App.service('some-service')
+- App.controller('some.route')
+- App.route('some.route')
 
 ## Current Context
-App.ctx.route
-App.ctx.controller
-App.ctx.model
+Grabs the current active the objects of the current active route
+
+- App.ctx.route
+- App.ctx.controller
+- App.ctx.model
 
 
 Contributing
