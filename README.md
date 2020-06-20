@@ -1,15 +1,7 @@
 ember-handy-globals
 ==============================================================================
 
-[Short description of the addon.]
-
-
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v3.8 or above
-* Ember CLI v2.13 or above
-* Node.js v8 or above
+Adds some globals to your Ember.js App, for easier developing!
 
 
 Installation
@@ -23,13 +15,24 @@ ember install ember-handy-globals
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+Open the browser console and start using it!
+
+## Easy object picking
+App.lookup('service:some-service')
+App.service('some-service')
+App.controller('some.route')
+App.route('some.route')
+
+## Current Context
+App.ctx.route
+App.ctx.controller
+App.ctx.model
 
 
 Contributing
 ------------------------------------------------------------------------------
 
-See the [Contributing](CONTRIBUTING.md) guide for details.
+Have any ideas? please open a PR or file an issue.
 
 
 License

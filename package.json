@@ -1,13 +1,13 @@
 {
   "name": "ember-handy-globals",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Adds useful globals for developing your Ember App!",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/betocantu93/ember-handy-globals",
   "license": "MIT",
-  "author": "",
+  "author": "Alberto Cantu (betocantu93)",
   "directories": {
     "doc": "doc",
     "test": "tests"
